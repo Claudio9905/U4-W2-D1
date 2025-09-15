@@ -1,2 +1,1 @@
-# U4-W2-D1
-
+Esericizi sulla gestione delle Eccezioni in Java (OOP)
