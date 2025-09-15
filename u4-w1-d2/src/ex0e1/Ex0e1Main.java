@@ -33,7 +33,7 @@ public class Ex0e1Main {
             }
 
             try {
-                array[pos] = newVal;
+                array[pos -1] = newVal;
                 System.out.println("Array aggiornato: " + Arrays.toString(array));
 
             } catch (ArrayIndexOutOfBoundsException e){
