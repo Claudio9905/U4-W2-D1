@@ -12,7 +12,7 @@ public class ContoOnline extends  ContoCorrente{
     }
 
     public void StampaPrelievo(){
-        System.out.println("titolare: " + titolare + " - Saldo: " + saldo + " - Num movimenti: " + nMovimenti
+        System.out.println("titolare: " + titolare + " - Saldo: " + saldo + "€ - Num movimenti: " + nMovimenti
         + " - Massimo movimenti: " + maxMovimenti + " - Massimo prelievo possibile: " + maxPrelievo);
     }
 

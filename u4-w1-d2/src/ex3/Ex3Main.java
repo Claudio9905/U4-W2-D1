@@ -26,11 +26,11 @@ public class Ex3Main {
                             break;
                     case 1:
                             conto1.preleva(importo);
-                            System.out.println("Saldo del conto corrente: " + conto1.restituisciSaldo());
+                            System.out.println("Saldo del conto corrente: " + conto1.restituisciSaldo() + " €");
                             break;
                     case 2:
                             conto2.preleva(importo);
-                            System.out.println("Saldo del conto online: " + conto2.restituisciSaldo());
+                            System.out.println("Saldo del conto online: " + conto2.restituisciSaldo() + " €");
                             break;
                     default:
                         System.out.println("Scelta non valida");
